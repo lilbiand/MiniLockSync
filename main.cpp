@@ -11,7 +11,7 @@ private slots:
 
 void TestQString::toUpper()
 {
-    QString str = "Hellos";
+    QString str = "Hello";
     QCOMPARE(str.toUpper(), QString("HELLO"));
 }
 
